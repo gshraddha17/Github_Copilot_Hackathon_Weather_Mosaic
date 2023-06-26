@@ -135,6 +135,7 @@ Enter date (YYYY-MM-DD): 2023-06-01
 ```
 
 * To receive weather notifications, type `notifications`
+* The notification for daily weather data will be received at 8am in your mobile phone and a desktop notification has been set for your desktop.
 
 ```shell
 notifications
@@ -161,7 +162,25 @@ visualization
 telegram
 ```
 
-  
+
+* To see daily forecast, type `daily forecast`.
+
+```shell
+daily forecast
+```
+
+* To see hourly forecast, type `hourly forecast`.
+
+```shell
+hourly forecast
+```
+
+* To check if there is some extreme weather coondition at your place and what necessary precautions should be taken, type `extreme condition`.
+
+```shell
+extreme condition
+```
+
 ## Chrome Extension
 
 * Open Google Chrome and go to the Extensions page by entering the following URL in the address bar: chrome://extensions/
