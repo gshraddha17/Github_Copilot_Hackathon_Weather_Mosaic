@@ -1,0 +1,16 @@
+{
+    "name": "Weather Mosaic",
+    "version": "1.0",
+    "description": "Wholesome Weather Application",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["contentscript.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["nativeMessaging"]
+  }

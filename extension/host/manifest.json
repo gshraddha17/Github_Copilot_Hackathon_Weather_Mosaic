@@ -1,0 +1,8 @@
+{
+    "name": "com.google.chrome.extension.siri",
+    "description": "assistant",
+    "path": "FILE_PATH",
+    "type": "stdio",
+    "allowed_origins": ["chrome-extension://EXTENSION_ID/"],
+    "global": true
+  }
