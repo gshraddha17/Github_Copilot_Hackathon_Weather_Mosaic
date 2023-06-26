@@ -4,7 +4,7 @@
   <img alt="logo" src="Weather_Mosaic_logo.jpeg">
 </p>
 
-#
+
 Weather Mosaic is a command line tool that allows users to access weather information for different cities, change the language of weather reports, retrieve weather data through GPS functionality, view historical weather data, receive weather notifications, and use Telegram for weather queries.
 
 ## Table of contents
