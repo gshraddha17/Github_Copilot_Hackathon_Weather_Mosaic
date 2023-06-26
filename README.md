@@ -8,6 +8,7 @@ Weather Mosaic is a command line tool that allows users to access weather inform
 - [Microsoft Azure Integration](#microsoft-azure-integration)
 - [Telegram Integration](#telegram-integration)
 - [Usage](#usage)
+- [Chrome Extension](#chrome-extension)
 
 ## Installation
 
@@ -118,11 +119,55 @@ change language
 enable GPS
 ```
 
+* To view historical weather data of a place, type `historical data`. Follow the prompts to enter the city name and date.
 
+Example:
+
+```shell
+historical data
+Enter city name: London
+Enter date (YYYY-MM-DD): 2023-06-01
+```
+
+* To receive weather notifications, type `notifications`
+
+```shell
+notifications
+```
+
+* To save weather data for future use, type `save data`. Follow the prompts to enter the city name and date.
+
+Example:
+
+```shell
+save data
+Enter city name: London
+Enter date (YYYY-MM-DD): 2023-06-01
+```
+
+* View weather details of any city through graphs and visuals, type `vizualization`
+```shell
+visualization
+```
+
+* To use Telegram for weather queries, type `telegram`.
+
+```shell
+telegram
+```
 
   
+## Chrome Extension
 
+* Open Google Chrome and go to the Extensions page by entering the following URL in the address bar: chrome://extensions/
 
+* Enable `Developer mode` by toggling the switch in the top-right corner of the Extensions page.
+
+* Click on the `Load unpacked` button that appears.
+
+* Select the folder where you cloned or downloaded the Chrome extension.
+
+* The Chrome extension should now be loaded and visible in the Extensions page.
 
 
 
