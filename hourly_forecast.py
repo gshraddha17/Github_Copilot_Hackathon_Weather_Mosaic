@@ -25,7 +25,7 @@ def daily_forecast(latitude, longitude,duration, subscription_key):
     response = requests.get(url)
     data = response.json()
     
-    for i in range(0, 3):
+    for i in range(0, 12):
         forecast = data['forecasts'][i]
 
         # Extract the desired details
