@@ -1,7 +1,7 @@
 # Weather Mosaic Command Line Tool
 
 <p align="center">
-  <img alt="logo" src="gshraddha17/Github_Copilot_Hackathon_Weather_Mosaic/Weather_Mosaic_logo.jpeg">
+  <img alt="logo" src="https://github.dev/gshraddha17/Github_Copilot_Hackathon_Weather_Mosaic/blob/2f310a0a6c05995a9b649435c8d118286e14699c/Weather_Mosaic_logo.jpeg">
 </p>
 
 
